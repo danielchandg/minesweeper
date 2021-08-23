@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="minesweeper" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/minesweeper" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/minesweeper" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Users/Danie/OneDrive/Desktop/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/Danie/OneDrive/Desktop/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="../OneDrive/Pictures/minesweeper/OpenSans-Regular.ttf" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/back button.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/backdrop.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/backdrop1.PNG" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/backdrop2.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/button custom.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/button custom1.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/button easy.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/button easy1.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/button expert.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/button expert1.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/button medium.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/button medium1.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/buttons temp.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/cursor1.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/cursor2.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mine0.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mine1.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mine2.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mine3.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mine4.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mine5.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mine6.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mine7.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mine8.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/minebomb.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mineboom.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mineflag.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/mineflagpressed.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/minepressed.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/minesquare.png" />
+		<Unit filename="../OneDrive/Pictures/minesweeper/slider.png" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sfml-audio-2.dll" />
+		<Unit filename="sfml-audio-d-2.dll" />
+		<Unit filename="sfml-graphics-2.dll" />
+		<Unit filename="sfml-graphics-d-2.dll" />
+		<Unit filename="sfml-network-2.dll" />
+		<Unit filename="sfml-network-d-2.dll" />
+		<Unit filename="sfml-system-2.dll" />
+		<Unit filename="sfml-system-d-2.dll" />
+		<Unit filename="sfml-window-2.dll" />
+		<Unit filename="sfml-window-d-2.dll" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
